@@ -22,7 +22,7 @@ body
 .navbar-toggler:focus { outline: none; }
 
 #hero {
-    background-image: url(images/hero.jpg);
+    background-image: url(images/hero.png);
     background-size: cover;
     padding-top: 90px;
     min-height: 700px;
