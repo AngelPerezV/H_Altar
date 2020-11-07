@@ -2,3 +2,35 @@ body
 {
     font-family: 'Indie Flower', cursive;
 }
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(189, 134, 134, 0.05);
+    min-height: 100px;
+}
+
+.nav-link { color: var(--dark-color); }
+.nav-link:hover { color: var(--dark-color); }
+
+
+.logo-brand {
+    max-width: 180px;
+    min-width: 160px;
+}
+
+.navbar-toggler { font-size: 40px; }
+.navbar-toggler:focus { outline: none; }
+
+#hero {
+    background-image: url(images/hero.jpg);
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: var(--white-color);
+}
+
+.content-center {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
